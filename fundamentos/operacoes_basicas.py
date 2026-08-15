@@ -1,28 +1,20 @@
-#Definicao das variaveis
-a = 20
-b = 6
+x = int(input("Insira o valor de x: "))
+y = int(input("Insira o valor de y: "))
+z = int(input("Insira o valor de z: "))
 
-#Operacoes basicas
-divisao = a / b
-divisao_inteira = a // b
-soma = a + b
-subtracao = a - b
-multiplicacao = a * b
-potencia = a**b
-resto = a % b
+print(f"Valores inseridos: x = {x}, y = {y}, z = {z}")
 
-#Mostrar resultado
-print (resto)
+soma = x + y + z
+subtracao = x - y - z
+divisao = x / y / z
+multiplicacao = x * y * z
+divisao_inteira = x // y // z
 
-#Testando input e tipo de dados
-c = int(input("Insira o valor de c: "))
-print(c)
+resultado = soma + subtracao + divisao + multiplicacao + divisao_inteira
 
-d = int(input("Insira o valor de d: "))
-print(d)
+if resultado > 100:
+    print("O resultado é maior que 100")
+else:
+    print("O resultado é menor ou igual a 100")
 
-resultado = c + d + 2
-print(f"Aqui está seu resultado: {resultado}")
-
-#Utilizando operadores relacionais
-
+print("Olá mundo!")
