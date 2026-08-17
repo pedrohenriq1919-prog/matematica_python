@@ -27,5 +27,21 @@ elif conjugado_x < conjugado_y:
 else:
     print("Os conjugados são diferentes.") 
 
+#Demonstrando as propriedades de radiciação
+a = 3
+b = 11
+
+lado_direito = math.sqrt(a * b)
+lado_esquerdo = math.sqrt(a) * math.sqrt(b)
+resultado = (lado_esquerdo == lado_direito)
+
+a = 4
+b = 2
+
+lado_esquerdo = math.sqrt(a / b)
+lado_direito = math.sqrt(a) / math.sqrt(b)
+resultado = lado_esquerdo == lado_direito
+print(resultado)
+
 
 
