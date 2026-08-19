@@ -43,5 +43,20 @@ lado_direito = math.sqrt(a) / math.sqrt(b)
 resultado = lado_esquerdo == lado_direito
 print(resultado)
 
+a = 10
+b = 5
 
+a = (7 * math.sqrt(3) - 3) / 2
+print(a)
 
+#Exercício 1
+x_1 = (
+    5/3
+    - math.sqrt(108) / math.sqrt(12)
+    + (3/5)**-1
+)**2 + (
+    (2 * math.sqrt(75)) / (5 * math.sqrt(3))
+    - math.sqrt(48) / math.sqrt(3)
+)
+
+print(x_1)

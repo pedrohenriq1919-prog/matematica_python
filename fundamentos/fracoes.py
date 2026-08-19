@@ -21,5 +21,20 @@ print(f)
 z = 3/4 - (5/6 * (9/10 - 2/5))
 print(z)
 
+y = 3/4 + (2/3 - 1/6) * 2**2
+print(y)
+
+w = (5/2 - math.sqrt(9))**2 + 3**2/math.sqrt(16) - 7/4
+print(w)
+
+#Operacoes com potencias e radicais
 x = ((2**3 + math.sqrt(16))/3 - (5/2 - 11/2)) - (2**2 - (math.sqrt(25)/5))
 print(x)
+
+#Utilizando o loop for para exibir os resultados de variáveis
+x1 = 4/2 + math.sqrt(16) - (math.sqrt(9) + 3**3)
+x2 = 10/5 + 2**3 - (math.sqrt(4))**2
+
+for i in range(int(x1), int(x2)):
+    print(i)
+            
