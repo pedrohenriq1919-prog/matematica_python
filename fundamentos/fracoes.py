@@ -37,4 +37,15 @@ x2 = 10/5 + 2**3 - (math.sqrt(4))**2
 
 for i in range(int(x1), int(x2)):
     print(i)
-            
+
+#Exercício while
+x = 2
+y = 0
+
+while x <= 32:
+    x = x * (3/2)
+    y += 1
+    print(x)
+    print(y)
+
+

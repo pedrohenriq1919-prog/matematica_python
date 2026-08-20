@@ -17,4 +17,11 @@ if resultado > 100:
 else:
     print("O resultado é menor ou igual a 100")
 
-print("Olá mundo!")
+#Utilizando for e while
+x = 1000
+y = 0
+
+while x >= 1:
+    x = x / 2
+    y += 1 
+    print(y)

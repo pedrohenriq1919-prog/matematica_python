@@ -60,3 +60,21 @@ x_1 = (
 )
 
 print(x_1)
+
+#Utilizando for e while com radiciação   
+for i in range(1, 11):
+    x = math.sqrt(i)
+    print(i, x)
+
+for i in range(1, 101):
+    x = math.sqrt(i)
+    if x.is_integer():
+        print(i)
+
+#Exercício for
+import math
+
+for i in range(1, 11):
+    x = i**2 + math.sqrt(i)
+    print(x)
+

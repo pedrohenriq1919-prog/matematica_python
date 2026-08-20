@@ -98,6 +98,28 @@ print(f"O valor do segundo expoente é: {m}")
 lado_esquerdo = a**m * a**n
 lado_direito = a**(m + n)
 
+#Utilizando for e while com potências
+for i in range(1, 11):
+    print(2**i)
+
+for i in range (2, 11, 2):
+    print(i**3)
+
+soma_potencia = 0
+
+for i in range(2, 4):
+    soma_potencia += i**2
+print(soma_potencia)
+
+#Calculando quadrados e cubos usando for
+for i in range(2, 7):
+    resultado = i**2
+    print(resultado)
+
+for i in range (3, 10):
+    x = i**3
+    print(x)
+
 
 
 
